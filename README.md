@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+And following a few simple steps to turn it into [typescript](https://facebook.github.io/create-react-app/docs/adding-typescript)
+
+One interesting issue I ran into was I had to manually install "react-scripts-ts". I kept receiving a **Could not compile, typescript module coud not be found** issue. But once I installed the "react-scripts-ts" package, it all worked.
+
+Also, by running >npm build (react-scripts build), the tsconfog.json file was built for me automatically.
+
+Next steps for me are to 1) incorporate serverless and see if I can get this running via an AWS Lambda 2) then I want to try Formik stuff out again and 3) keep playing around with whatever else comes up.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
